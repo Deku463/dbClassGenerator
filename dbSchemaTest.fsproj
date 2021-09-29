@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lib.fs"/>
+    <Compile Include="args.fs"/>
+    <Compile Include="Program.fs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2"/>
+    <PackageReference Include="Argu" Version="6.1.1"/>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0-preview1.21237.2"/>
+    <PackageReference Include="Npgsql" Version="6.0.0-preview7"/>
+  </ItemGroup>
+</Project>
